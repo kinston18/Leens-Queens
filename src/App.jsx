@@ -1,41 +1,6 @@
-import React from 'react'
-/*
-const menuAccordion = [
-{name: 'ENGLISH(IN)', href:'#', sublink: ['English','Kannada','Hindi','Tamil', 'Bengali']}
-];
-
-const navigation = [
-  {name: "ENGLISH(IN)", href:"#",subcategory:"true"},
-  {name: 'SELL YOUR MUSIC', href: '#'},
-  {name: 'ARTIST SERVICES', href: '#'},
-  {name: 'PRICING', href: '#'},
-  {name: 'ARTIST ADVICE', href: '#'},
-  {name: 'SPLITS', href: '#'},
-  {name: 'LOGIN', href: '#'},
-];
-
-
-
-export default function App() {
-  return (
-    <div className='max-w-full border px-4 py-2'>
-      <div>
-
-      </div>
-
-    </div>
-  )
-}
-
-
-
-
-*/
-
-
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-
+import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const user = {
   name: 'Tom Cook',
