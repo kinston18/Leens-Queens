@@ -39,8 +39,8 @@ export default function Example() {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800 ">
+      <div className="min-h-full opacity-50 ">
+        <Disclosure as="nav" className="bg-gradient-to-tr from-[#f00ee4] to-[#776fff]">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -80,7 +80,7 @@ export default function Example() {
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
                         <div>
-                          <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                          <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ">
                             <span className="sr-only">Open user menu</span>
                             <img className="h-8 w-8 rounded-full" src={user.imageUrl} alt="" />
                           </Menu.Button>
