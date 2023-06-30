@@ -4,7 +4,7 @@ const GradientButton = styled.button`
   color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   transition: background 0.3s ease;
 
@@ -71,10 +71,11 @@ const links = [
             </p>
             <a
                 href="#"
-                className="mt-8 inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 bg-gradient-to-tr from-[#c00cec]"
+            className="mt-8 inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 bg-gradient-to-tr from-[#c00cec] to-[#e6c71d]"
               >
                 Shop Collection
               </a>
+              <GradientButton>Shop Now</GradientButton>
           </div>
         </div>
       </div>
