@@ -1,18 +1,5 @@
 import styled from 'styled-components';
-const GradientButton = styled.button`
-  background: linear-gradient(to right, #e6c71d, #c00cec);
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-
-  &:hover {
-    background: linear-gradient(to right, #c00cec, #e6c71d);
-  }
-`
-
+import {GlobalButton} from './utils'
 
 const links = [
     { name: 'Open roles', href: '#' },
@@ -30,9 +17,11 @@ const links = [
   export default function Example() {
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        <GradientButton>Click Me</GradientButton>
+        <div className="absolute h-full w-full" id="particles-js"></div>
+
+
         <img
-          src="./src/assets/main.avif"
+          src="./src/assets/main.jpeg"
           alt="Arijit"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
         />
@@ -42,7 +31,7 @@ const links = [
         >
           
           <div
-            className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+            className="aspect-[1097/845] w-[68.5625rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -54,7 +43,7 @@ const links = [
           aria-hidden="true"
         >
           <div
-            className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+            className="aspect-[1097/845] w-[68.5625rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -63,19 +52,20 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
-         
+            <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">Work with us</h2>
+            <p className="mt-6 text-lg leading-8 text-gray-550">
+              
+              Anim aute id magna aliqua ad ad non deserunt sunt. <br/>Qui irure qui lorem cupidatat commodo. Elit sunt amet
+             <br/> fugiat veniam occaecat fugiat aliqua.
             </p>
             <a
-                href="#"
-            className="mt-8 inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 bg-gradient-to-tr from-[#c00cec] to-[#e6c71d]"
-              >
-                Shop Collection
-              </a>
-              <GradientButton>Shop Now</GradientButton>
+  href="#"
+  className="mt-6 inline-block rounded-md border border-transparent bg-gradient-to-r from-purple-800 to-indigo-800 px-8 py-3 text-center font-medium text-white hover:from-indigo-800 hover:to-purple-800 hover:bg-gradient-to-l hover:shadow-md transition-all duration-300"
+>
+  Shop Collection
+</a>
+              
+              <GlobalButton>Hi there</GlobalButton>
           </div>
         </div>
       </div>
