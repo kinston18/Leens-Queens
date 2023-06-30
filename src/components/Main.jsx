@@ -1,3 +1,19 @@
+import styled from 'styled-components';
+const GradientButton = styled.button`
+  background: linear-gradient(to right, #e6c71d, #c00cec);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(to right, #c00cec, #e6c71d);
+  }
+`
+
+
 const links = [
     { name: 'Open roles', href: '#' },
     { name: 'Internship program', href: '#' },
@@ -14,6 +30,7 @@ const links = [
   export default function Example() {
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+        <GradientButton>Click Me</GradientButton>
         <img
           src="./src/assets/main.avif"
           alt="Arijit"
@@ -23,6 +40,7 @@ const links = [
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true"
         >
+          
           <div
             className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             style={{
@@ -53,7 +71,7 @@ const links = [
             </p>
             <a
                 href="#"
-                className="mt-8 inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                className="mt-8 inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 bg-gradient-to-tr from-[#c00cec]"
               >
                 Shop Collection
               </a>
