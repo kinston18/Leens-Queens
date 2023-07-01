@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+
 import {GlobalButton} from './utils'
 
 const links = [
@@ -17,9 +17,6 @@ const links = [
   export default function Example() {
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        <div className="absolute h-full w-full" id="particles-js"></div>
-
-
         <img
           src="./src/assets/main.jpeg"
           alt="Arijit"
@@ -64,8 +61,6 @@ const links = [
               >
                 Shop Collection
               </a>
-              
-              
           </div>
           <GlobalButton>Hi there</GlobalButton>
         </div>
