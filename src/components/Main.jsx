@@ -59,14 +59,15 @@ const links = [
              <br/> fugiat veniam occaecat fugiat aliqua.
             </p>
             <a
-  href="#"
-  className="mt-6 inline-block rounded-md border border-transparent bg-gradient-to-r from-purple-800 to-indigo-800 px-8 py-3 text-center font-medium text-white hover:from-indigo-800 hover:to-purple-800 hover:bg-gradient-to-l hover:shadow-md transition-all duration-300"
->
-  Shop Collection
-</a>
+                href="#"
+                className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+              >
+                Shop Collection
+              </a>
               
-              <GlobalButton>Hi there</GlobalButton>
+              
           </div>
+          <GlobalButton>Hi there</GlobalButton>
         </div>
       </div>
     )

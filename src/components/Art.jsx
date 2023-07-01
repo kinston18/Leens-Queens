@@ -41,7 +41,7 @@ export default function Example() {
               <img
                 src="./src/assets/art.gif"
                 alt="App screenshot"
-                width={350}
+                width={500}
                 height={250}
               />
             </div>
