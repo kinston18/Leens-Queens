@@ -10,10 +10,11 @@ import Main from './components/Main'
 import Mysec from'./components/Mysec'
 import Art from './components/Art.jsx'
 
+
 const App = () => {
   return (
     
-    <div>
+    <div >
     <Navbar/>
     <Main />
     <Hero />

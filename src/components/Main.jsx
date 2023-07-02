@@ -18,7 +18,7 @@ const links = [
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <img
-          src="./src/assets/main.jpeg"
+          src=  "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  //"./src/assets/main.jpeg"
           alt="Arijit"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
         />
@@ -49,20 +49,31 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">Work with us</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-550">
-              
-              Anim aute id magna aliqua ad ad non deserunt sunt. <br/>Qui irure qui lorem cupidatat commodo. Elit sunt amet
-             <br/> fugiat veniam occaecat fugiat aliqua.
-            </p>
-            <a
+            <h2 className="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">Work with <span className='highlight'>Leens</span> </h2>
+            <p className="mt-6 text-lg leading-9 text-white">
+            
+            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+              <p>
+                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+              </p>
+            </blockquote>
+            
+
+
+            Content Distribution Management is essential for organizations to effectively distribute their content, increase brand visibility, engage with their target audience, and achieve their marketing and business objectives.</p>
+            <br />
+         <p className="mt-4 text-lg leading-9 text-white">Developing a well-defined strategy that aligns with the target audience </p>
+            <div className="mt-2 flex items-center justify-center gap-x-6 lg:justify-start">
+            </div>
+              <a
                 href="#"
-                className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                className=" rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 mt-10 flex items-center justify-center gap-x-6 lg:justify"
               >
                 Shop Collection
               </a>
           </div>
-          <GlobalButton>Hi there</GlobalButton>
+          
         </div>
       </div>
     )
