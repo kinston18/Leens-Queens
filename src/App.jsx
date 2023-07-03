@@ -18,11 +18,11 @@ const App = () => {
     <Navbar/>
     <Main />
     <Hero />
-    <br/>
+  
     <Cover />
-    <br/>
+ 
     <Mysec />
-    <br/>
+   
     <Work />
     
     <Companies />
