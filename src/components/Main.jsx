@@ -49,8 +49,8 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">Work with 
-             <span className='highlight'>Leens</span> </h2>
+            <h2 className="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">Work with  
+            <span className='highlight'>Leens</span> </h2>
            
             
             <div className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
