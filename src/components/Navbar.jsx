@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+
 import logo from '../../src/assets/logo.png'
 
 
@@ -31,14 +31,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```s
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
+      
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-indigo-950 opacity-85">
           {({ open }) => (
@@ -115,17 +108,7 @@ export default function Example() {
                       </Menu>
                     </div>
                   </div>
-                  <div className="-mr-2 flex md:hidden">
-                    {/* Mobile menu button */}
-                    <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                      <span className="sr-only">Open main menu</span>
-                      {open ? (
-                        <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                      ) : (
-                        <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                      )}
-                    </Disclosure.Button>
-                  </div>
+                  
                 </div>
               </div>
 
@@ -155,13 +138,7 @@ export default function Example() {
                       <div className="text-base font-medium leading-none text-white">{user.name}</div>
                       <div className="text-sm font-medium leading-none text-gray-400">{user.email}</div>
                     </div>
-                    <button
-                      type="button"
-                      className="ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                    >
-                      <span className="sr-only">View notifications</span>
-                      <BellIcon className="h-6 w-6" aria-hidden="true" />
-                    </button>
+                    
                   </div>
                   <div className="mt-3 space-y-1 px-2">
                     {userNavigation.map((item) => (
@@ -223,12 +200,7 @@ export default function Example() {
           Register now <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
-      <div className="flex flex-1 justify-end">
-        <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
-          <span className="sr-only">Dismiss</span>
-          <XMarkIcon className="h-5 w-5 text-gray-900" aria-hidden="true" />
-        </button>
-      </div>
+     
     </div>
 
         

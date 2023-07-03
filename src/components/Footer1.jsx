@@ -1,18 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
+
 
 export default function Example() {
   return (
@@ -49,7 +35,7 @@ export default function Example() {
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                <CalendarDaysIcon className="h-6 w-6 text-white" aria-hidden="true" />
+               
               </div>
               <dt className="mt-4 font-semibold text-white">Weekly articles</dt>
               <dd className="mt-2 leading-7 text-gray-400">
@@ -58,7 +44,7 @@ export default function Example() {
             </div>
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                <HandRaisedIcon className="h-6 w-6 text-white" aria-hidden="true" />
+               
               </div>
               <dt className="mt-4 font-semibold text-white">No spam</dt>
               <dd className="mt-2 leading-7 text-gray-400">
