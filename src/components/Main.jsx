@@ -49,17 +49,17 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">Work with <span className='highlight'>Leens</span> </h2>
-            <div className="text-center text-xl font-semibold leading-9 mt-7 text-white sm:text-2xl sm:leading-9">
+            <h2 className="text-4xl text-left font-bold tracking-tight text-gray-700 sm:text-6xl">Work with <span className='highlight'>Leens</span> </h2>
+            <div className="text-left text-xl font-semibold leading-9 mt-7 text-white sm:text-2xl sm:leading-9">
               <p>Content Distribution Management is essential for organizations to effectively 
-            distribute their content, increase brand visibility, engage with their target
+            distribute their <span className='highlight'>content</span>, increase <span className='highlight'>brand</span> visibility, engage with their target
              audience, and achieve their marketing and business objectives.
               </p>
             </div>            
             <br />
-            <div className="text-center text-xl font-semibold leading-9 mt-7 text-white sm:text-2xl sm:leading-9">
+            <div className="text-left text-xl font-semibold leading-9 mt-7 text-white sm:text-2xl sm:leading-9">
               <p>Developing a well-defined strategy that aligns 
-         with the target audience </p>
+         with the target audience & tailoring content to specific audience segments.</p>
             </div>
          <p className="mt-4 text-lg leading-9 text-white"></p>
             <div className="mt-2 flex items-center justify-center gap-x-6 lg:justify-start">
