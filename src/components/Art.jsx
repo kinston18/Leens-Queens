@@ -38,7 +38,7 @@ export default function Example() {
               <GlobalButton>Learn more <span aria-hidden="true">&rarr;</span></GlobalButton>
               </div>
             </div>
-            <div className="relative rounded-md border mt-16 mb-8 align-center lg:mt-8 mb-8">
+            <div className="relative rounded-md border mt-16 align-center lg:mt-8 mb-8">
               <img
               src='https://i.pinimg.com/564x/78/88/97/788897727a9b422f726f36ed59f04f3e.jpg'
                // src="./src/assets/art.gif"
