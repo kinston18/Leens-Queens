@@ -36,7 +36,7 @@ export default function Example() {
                 <GlobalButton>Learn more <span aria-hidden="true">&rarr;</span></GlobalButton>
               </div>
             </div>
-            <div className="relative mt-16 mb-10 lg:mt-8 align-center text-white">
+            <div className="relative mt-16 lg:mt-8 mb-10 align-center text-white">
               <img
                 src="https://i.pinimg.com/236x/11/92/33/1192331815ef0cc6e9934d5c87aba5f3.jpg"
                 alt="App screenshot"
@@ -44,6 +44,7 @@ export default function Example() {
                 height={200}
               />
             </div>
+            
           </div>
         </div>
       </div>
