@@ -57,7 +57,7 @@ const links = [
               </p>
             </div>            
             <br />
-            <div className="text-left text-xl font-semibold leading-9 mt-7 text-white sm:text-2xl sm:leading-9">
+            <div className="text-left text-xl font-semibold leading-9 mt-2 text-white sm:text-2xl sm:leading-9">
               <p>Developing a well-defined strategy that aligns 
          with the target audience & tailoring content to specific audience segments.</p>
             </div>
@@ -68,7 +68,7 @@ const links = [
                 href="#"
                 className=" rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 mt-10 flex items-center justify-center gap-x-6 lg:justify"
               >
-                Shop Collection
+              Prices starting at ₹ 999/year
               </a>
           </div>
           

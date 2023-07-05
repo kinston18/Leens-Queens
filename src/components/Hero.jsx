@@ -31,7 +31,7 @@ export default function Example() {
                 href="#"
                 className=" rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 mt-10 flex items-center justify-center gap-x-6 lg:justify"
               >
-                Shop Collection
+                JOIN US
               </a>
             </figcaption>
           </figure>

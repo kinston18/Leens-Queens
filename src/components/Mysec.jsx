@@ -36,12 +36,12 @@ export default function Example() {
                 <GlobalButton>Learn more <span aria-hidden="true">&rarr;</span></GlobalButton>
               </div>
             </div>
-            <div className="relative mt-16 lg:mt-8">
+            <div className="relative mt-16 mb-10 lg:mt-8 align-center text-white">
               <img
-                src="./src/assets/music.png"
+                src="https://i.pinimg.com/236x/11/92/33/1192331815ef0cc6e9934d5c87aba5f3.jpg"
                 alt="App screenshot"
-                width={350}
-                height={250}
+                width={300}
+                height={200}
               />
             </div>
           </div>
