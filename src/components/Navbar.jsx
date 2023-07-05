@@ -1,6 +1,5 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-
 import logo from '../../src/assets/logo.png'
 
 
@@ -202,6 +201,10 @@ export default function Example() {
       </div>
      
     </div>
+
+
+
+    
 
         
       </div>
