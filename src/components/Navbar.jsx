@@ -189,7 +189,7 @@ export default function Example() {
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Join us in <span className="highlight">Leens Festival</span> from June 7 – 9 to see what’s coming next.
+          Join us in the first <span className="highlight">Leens Festival</span> from June 7 – 9 to see what’s coming next and enjoy your freshly brewed music just like your perfect cup of coffee, that too totally <span className="highlight">free</span>
         </p>
         <a
           href="#"
